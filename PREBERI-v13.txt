@@ -1,0 +1,7 @@
+Slovenski Sport v13 – povezava KickoffAPI (preizkusna integracija)
+
+Pomembno: rezultati so prikazani samo, če KickoffAPI dejansko vrne zaključene tekme Slovenije v Ligi narodov 2026. Povezava ni preverjena s tvojim zasebnim ključem. Drugi športi še niso povezani.
+
+V Netlify mora biti KICKOFF_API_KEY shranjen kot skrivna spremenljivka, dostopna Functions.
+
+POZOR: Za Netlify Functions navaden Netlify Drop (ročno nalaganje ZIP-a) lahko ne podpira gradnje funkcij. Za delovanje te različice je potrebna gradnja/deploy projekta iz Git repozitorija ali Netlify CLI. Sam ZIP ne zagotavlja delovanja strežniške funkcije.

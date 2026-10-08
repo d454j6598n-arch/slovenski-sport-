@@ -1,0 +1,1 @@
+Slovenski Sport v12: filter sportov v Koledarju in TV-prenos pri preverjenih tekmah. TV kanali se ne osvezujejo samodejno; neznani so oznaceni kot nepotrjeni.
