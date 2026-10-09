@@ -30,11 +30,10 @@ exports.handler = async () => {
   }
 
   try {
-    const from = new Date();
-    from.setUTCDate(from.getUTCDate() - 30);
+    const from = new Date(Date.UTC(new Date().getUTCFullYear(), 0, 1));
 
-    const to = new Date();
-    to.setUTCDate(to.getUTCDate() + 30);
+    const to = new Date(Date.UTC(new Date().getUTCFullYear(), 11, 31));
+    
 
     const url = new URL(API + "/fixtures");
     url.searchParams.set("league", "5");
